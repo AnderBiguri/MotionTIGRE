@@ -12,7 +12,7 @@
 %   A general method for motion compensation in x-ray computed tomography
 %
 %   Ander Biguri1, Manjit Dosanjh2, Steven Hancock2 and Manuchehr Soleimani1
-%   Published 24 July 2017 • © 2017 Institute of Physics and Engineering in Medicine 
+%   Published 24 July 2017 â€¢ Â© 2017 Institute of Physics and Engineering in Medicine 
 %   Physics in Medicine & Biology, Volume 62, Number 16
 % -------------------------------------------------------------------------
 %
@@ -83,7 +83,8 @@ addpath('./Motion_Correction')
 % This file contains 2 DVFs, B and F. One of them is the forward
 % devormation and the other the inverse map of that deformation. These are
 % needed
-load('.\Motion_Correction\motionBF01.mat')
+load('.\Motion_Correction\dvf_B.mat')
+load('.\Motion_Correction\dvf_F.mat')
 
 %% Section 2; Generate projections
 
